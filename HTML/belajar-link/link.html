@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>Belajar Relative URL</H2>
+    <ul>
+        <li><a href="hello.html" target="_blank">hello.html</a></li>
+        <li><a href="akbar/index.html" target="_blank">akbar/index.html</a></li>
+        <li><a href="/color.html"  target="_blank">/color.html</a></li>
+    </ul>
+    <h2>Penjelasan</h2>
+    <p>File <b>hello.html</b> berada di tempat yang sama (folder yang sama) dengan file HTML ini. Jadi, link ini akan mencari file hello.html di folder yang sedang digunakan.</p>
+    <p>File <b>index.html</b> berada di dalam folder bernama akbar, yang ada di dalam folder tempat file HTML ini berada. Jadi, link ini akan masuk ke folder akbar terlebih dahulu, lalu mencari file hello.html.</p>
+    <p>File <b>color.html</b> berada di folder utama (root direktori) server. Jadi, link ini akan langsung mencari file link.html di bagian paling atas dari semua folder di server.</p>
+</body>
+</html>
