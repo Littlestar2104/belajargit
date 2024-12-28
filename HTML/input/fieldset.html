@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regitrasi</title>
+</head>
+<body>
+    <h1>Belajar input fieldset</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Identitas</legend>
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama"><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="telepone">Telepone</label>
+            <input type="tel" name="telepone" id="telepone" pattern="(62)[0-9]{5-20}"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Alamat</legend>
+            <label for="jalan">Jalan</label>
+            <input type="text" name="jalan" id="jalan"><br>
+            <label for="kota">Kota</label>
+            <input type="text" name="kota" id="kota"><br>
+            <label for="kodepos">Kode Pos</label>
+            <input type="text" name="kodepos" id="kodepos" pattern="[0-9]{5}"><br>
+        </fieldset>
+        <button type="submit">Simpan</button>
+    </form>
+</body>
+</html>
